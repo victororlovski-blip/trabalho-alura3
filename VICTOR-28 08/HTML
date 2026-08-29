@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Primeiro Post</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #6c5ce7;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        .post {
+            background-color: white;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .post h2 {
+            color: #6c5ce7;
+            font-size: 32px;
+        }
+
+        .data {
+            color: #777;
+            font-size: 14px;
+        }
+
+        .post p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #6c5ce7;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .botao:hover {
+            background-color: #4834d4;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Blog</h1>
+        <p>Bem-vindo ao meu primeiro post!</p>
+    </header>
+
+    <main>
+        <article class="post">
+
+            <h2>🚀 Meu Primeiro Post</h2>
+
+            <p class="data">
+                Publicado em 28 de agosto de 2026
+            </p>
+
+            <p>
+                Olá, pessoal! Este é o meu primeiro post no meu novo site.
+                Estou muito feliz em começar este projeto e compartilhar
+                minhas ideias com vocês.
+            </p>
+
+            <p>
+                Aqui vou falar sobre novidades, projetos, tecnologia,
+                experiências e várias outras coisas interessantes.
+            </p>
+
+            <p>
+                Espero que vocês gostem do conteúdo e acompanhem os próximos
+                posts. Esse é apenas o começo! 😃
+            </p>
+
+            <a href="#" class="botao">Curtir 👍</a>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Meu Blog | Meu Primeiro Post</p>
+    </footer>
+
+</body>
+</html>
